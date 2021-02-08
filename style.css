@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    padding: 20px 5px;
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* full nav */
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* logo and title */
+
+.logotitle {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-grow: 1;
+   
+}
+
+.logotitle img {
+    width: 100px;
+    height: 100px;   
+}
+
+
+
+/* menu */
+
+.menu {
+    flex-grow: 2;
+    padding: 5px 10px;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 7.5vw;
+}
+
+ul li {
+     list-style-type: none;
+     padding: 0 10px;
+}
+
+/* search bar */
+
+.search {
+    background-color: #304863;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search input {
+    height: 3vh;
+    width: 12vw;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 8vw;
+}
+
+/* full width article */
+
+.fullwidth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border: 0.8px solid rgb(207, 203, 203);
+}
+
+.fullwidth img {
+    width: 45%;
+    height: 100%;
+}
+
+.articledesc {
+    margin: 0 30px;
+}
+
+.fullwidth h3 {
+    color: #2b5b85;
+    font-size: 22px;
+}
+
+.articledesc p {
+    padding: 10px 0;
+    color: #2b5b85;
+    font-size: 15px;
+}
+
+.learnmorebutton {
+    background-color: #1d6ba2;
+    height: 100%;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    padding:  0px 20px;   
+    margin: 10px 0; 
+}
+
+.learnmorebutton span {
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* headings of main page */
+
+h2 {
+    padding: 40px 0;
+    width: 70%;
+    color: #333333;
+}
+
+
