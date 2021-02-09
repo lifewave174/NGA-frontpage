@@ -70,14 +70,14 @@ ul li {
 
 .search {
     background-color: #304863;
-    padding: 10px;
+    padding: 11px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .search input {
-    height: 3vh;
+    height: 35px;
     width: 12vw;
     border-radius: 5px;
     padding: 10px;
@@ -150,7 +150,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .articlecards article {
